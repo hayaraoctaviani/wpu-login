@@ -82,7 +82,7 @@
                         </div>
                         
                         <div class="form-group">
-                            <select name="menu" id="menu" class="form-control">
+                            <select name="menu_id" id="menu_id" class="form-control">
                                 <option value="">Select Submenu</option>
                                     <?php foreach($menu as $m) { ?>
                                         <option value="<?= $m['id']; ?>"><?= $m['menu']; ?></option>
@@ -100,7 +100,7 @@
                         
                         <div class="form-group">
                         <div class="form-check">
-                            <input class="form-check-input" type="checkbox" value="" id="is_active" checked name="is_active" >
+                            <input class="form-check-input" type="checkbox" value="1" id="is_active" checked name="is_active" >
                             <label class="form-check-label" for="is_active ">
                                 Active?
                             </label>
